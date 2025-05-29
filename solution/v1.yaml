@@ -1,7 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mydeployment
+  name: ugr-3361-13
+  annotations:
+    submitted-by: yohannes-bekele-ugr3361
   labels:
     app: mywebapp
     tier: frontend
